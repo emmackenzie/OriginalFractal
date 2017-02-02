@@ -18,13 +18,13 @@
 
  	if(siz > 10)
  	{
- 		fill(184, 75, 255);
+ 		fill(204, 255, 229);
  		Fractal(x -siz/2,y,siz/2);
- 		fill(247,251,67);
+ 		fill(204,255,229);
  		Fractal(x + siz/2,y,siz/2);
- 		fill(0, 255, 255);
+ 		fill(32,32,32);
  		Fractal(x, y + siz/2, siz/2);
- 		fill(4, 41, 3);
+ 		fill(32,32,32);
  		Fractal(x, y -siz/2, siz/2);
  		fill(0);
  		//Fractal(x/2, y, siz/2);
